@@ -1,0 +1,121 @@
+.container{
+  background-color: #193770;
+  height: 50vh;
+  padding: 10px;
+  margin: 10px;
+}
+.card-layout{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.left-card,
+.right-card {
+ margin-top: 70px;
+ margin-left: 50px;
+ margin-right: 50px;
+}
+.center-card{
+  display: inline-grid;
+  gap: 10px;
+}
+.card-riobox{
+  padding: 10px;
+  margin: 5px;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  width: 30vh;
+  font-weight: bold;
+  background-color: #ffffff7d;
+  font-family: sans-serif;
+  text-align: center;
+  position: relative;
+}
+.card-riobox:before {
+  content: "";
+  width: 142px;
+  height: 2px;
+  background: gray;
+  left: 199px;
+  top: 50%;
+  position: absolute;
+}
+.card-insite{
+  padding: 10px;
+  margin: 5px;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  width: 30vh;
+  font-weight: bold;
+  background-color: #ffffff7d;
+  font-family: sans-serif;
+  text-align: center;
+  position: relative;
+}
+.card-insite:after{
+  content: "";
+  width: 142px;
+  height: 2px;
+  background: gray;
+  right: 199px;
+  top: 50%;
+  position: absolute;
+}
+.modal{
+  padding: 10px;
+  margin: 5px;
+  display: flex;  
+  justify-content: center;
+  width: 40vh;
+  font-weight: bold;
+  background-color: #ffffff7d;
+  font-family: sans-serif;
+  text-align: center;
+  color: black;
+  max-width: 600px;
+  position: relative;
+}
+.modal:before{
+  content: "";
+  display: block;
+  width: 51px;
+  height: 2px;
+  background: gray;
+  left: 258px;
+  top: 50%;
+  position: absolute;
+}
+.modal:after{
+  content: "";
+  display: block;
+  width: 51px;
+  height: 2px;
+  background: gray;
+  right: 258px;
+  top: 50%;
+  position: absolute;
+}
+.line {
+  font-size:0;
+  width:2px;
+  height:30vh;
+  color:#fff;
+  background-color: gray;
+  margin:auto;
+  position: absolute;
+  left: 57vh;
+}
+.line-insite{
+  font-size:0;
+  width:2px;
+  height:30vh;
+  color:#fff;
+  background-color: gray;
+  margin:auto;
+  position: absolute;
+  right: 57vh;
+}
